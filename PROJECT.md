@@ -34,3 +34,6 @@ Test command: `cd api && python manage.py test`
 
 | Date | Ticket | Who | What | Branch |
 |---|---|---|---|---|
+| 2026-10-30 | #4 | backend-developer | Contact endpoint POST /api/contact/ | ticket-4-contact-endpoint-post-api-contact |
+| 2026-10-30 | #5 | frontend-developer | Contact form page (HTML) | ticket-5-contact-form-page-html |
+| 2026-10-30 | #6 | backend-developer | Align contact endpoint with contract v1 | ticket-6-align-contact-endpoint-with-contract-v1 |
