@@ -12,3 +12,4 @@ _Not written yet._
 
 | Date | Ticket | Who | What | Branch |
 |---|---|---|---|---|
+| 2026-10-30 | #4 | backend-developer | Contact endpoint POST /api/contact/ | ticket-4-contact-endpoint-post-api-contact |
