@@ -46,12 +46,13 @@ DATABASES = {}
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-LANGUAGE_CODE = "nl"
+LANGUAGE_CODE = "en-us"  # API error texts are English; the frontend translates
 TIME_ZONE = "Europe/Amsterdam"
 USE_I18N = False
 USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = env_list("CORS_ALLOWED_ORIGINS")
+CORS_ALLOW_METHODS = ["POST", "OPTIONS"]
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [],

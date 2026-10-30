@@ -7,7 +7,7 @@ from .serializers import ContactSerializer
 
 
 class ContactView(APIView):
-    """Public endpoint. Validates name and message; stores, logs and sends nothing."""
+    """Public endpoint (contract v1). Validates name and message; stores, logs and sends nothing."""
 
     permission_classes = [permissions.AllowAny]
     authentication_classes = []
@@ -16,6 +16,11 @@ class ContactView(APIView):
     def post(self, request):
         serializer = ContactSerializer(data=request.data)
         if not serializer.is_valid():
-            errors = {field: messages[0] for field, messages in serializer.errors.items()}
-            return Response({"errors": errors}, status=status.HTTP_400_BAD_REQUEST)
-        return Response({"success": True}, status=status.HTTP_201_CREATED)
+            return Response(
+                {"detail": "Invalid input", "code": "invalid", "errors": serializer.errors},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+        return Response(
+            {"detail": "Message received", "code": "received"},
+            status=status.HTTP_201_CREATED,
+        )
