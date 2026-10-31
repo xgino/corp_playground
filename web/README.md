@@ -32,6 +32,12 @@ base URL (inlined at build time, public). The API must allow the site origin in
 - `.env.example`: `NEXT_PUBLIC_API_BASE_URL`.
 - `next.config.mjs`, `tsconfig.json`, `package.json`, `.gitignore`: tooling.
 
+## Legacy files, to delete
+
+`web/contact.html`, `web/contact.js` and `web/config.js` are replaced by `/contact` and are
+unused. They sit outside `app/` and `public/`, so the Next.js build ignores them. Delete them
+when someone with git access can.
+
 ## Work log
 
 | Date | Ticket | Who | What | Branch |
