@@ -39,3 +39,4 @@ Test command: `cd api && python manage.py test`
 | 2026-10-30 | #6 | backend-developer | Align contact endpoint with contract v1 | ticket-6-align-contact-endpoint-with-contract-v1 |
 | 2026-10-30 | #3 | cto | Simple contact page (API + HTML form) | ticket-3-simple-contact-page-api-html-form |
 | 2026-10-31 | #7 | cto | Can you create me a landing page that uses Next.js and make it more appealing an | ticket-7-can-you-create-me-a-landing-page-that-us |
+| 2026-10-31 | #9 | frontend-developer | Next.js landing page in web/ (#A) (unfinished) | ticket-9-next-js-landing-page-in-web-a |
