@@ -56,6 +56,7 @@ export const landing = {
   },
   footer: {
     text: 'Adams corp. Alle rechten voorbehouden.',
+    health: { label: 'API status', path: '/api/health/' },
   },
 } as const;
 

@@ -3,6 +3,11 @@ import { landing } from '@/content/landing';
 
 const { cta, footer } = landing;
 
+// Set in web/.env.local (see .env.example). Inlined at build time.
+// Empty means same origin (for example behind a reverse proxy).
+const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL ?? '').replace(/\/+$/, '');
+const healthHref = `${API_BASE_URL}${footer.health.path}`;
+
 export default function FinalCta() {
   return (
     <>
@@ -20,7 +25,13 @@ export default function FinalCta() {
         </div>
       </section>
       <footer className="border-top py-4">
-        <div className="container text-center small text-muted-ink">{footer.text}</div>
+        <div className="container text-center small text-muted-ink">
+          {footer.text}
+          {' · '}
+          <a href={healthHref} className="text-muted-ink">
+            {footer.health.label}
+          </a>
+        </div>
       </footer>
     </>
   );
