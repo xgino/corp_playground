@@ -14,10 +14,14 @@ api/                 Django + DRF, JSON only (backend)
   config/            settings, urls
   contact/           contact app: POST /api/contact/ (validate only, no storage)
   .env.example       DJANGO_SECRET_KEY, DJANGO_DEBUG, ALLOWED_HOSTS, CORS_ALLOWED_ORIGINS
-web/                 Plain static HTML/JS, no build step (frontend)
-  contact.html       Form: name + message, posts to the API
-  contact.js         fetch + success/error display
-  config.js          API_BASE_URL setting
+web/                 Next.js 15 (App Router, TypeScript, Bootstrap), static export (frontend)
+  app/               routes: / (landing page), /contact (form)
+  components/        Hero, Showcase, Process, FinalCta, ScrollReveal, ContactForm
+  content/           all page text: landing.ts, contact.ts (Dutch)
+  lib/contactApi.ts  only place that calls the API
+  .env.example       NEXT_PUBLIC_API_BASE_URL
+  contact.html, contact.js, config.js   legacy, unused, to be deleted by a human
+docs/plans/          approved plans (landing-page.md)
 docs/contracts/      API contracts
   contact.md         POST /api/contact/ (v1)
 ```
@@ -29,6 +33,8 @@ Contract: [docs/contracts/contact.md](docs/contracts/contact.md)
 | POST /api/contact/ | none | `{ "name", "message" }` both required, non-blank | 201 `{ "detail", "code": "received" }` | 400 `{ "detail", "code": "invalid", "errors": {...} }` |
 
 Test command: `cd api && python manage.py test`
+Web build check: `cd web && npm install && npm run build` (output in `web/out/`)
+CORS: api/.env `CORS_ALLOWED_ORIGINS` must include the Next.js origin (e.g. http://localhost:3000).
 
 ## Work log
 
@@ -43,3 +49,4 @@ Test command: `cd api && python manage.py test`
 | 2026-10-31 | #10 | frontend-developer | Next.js landing page in web/ (#A) - continue (unfinished) | ticket-9-next-js-landing-page-in-web-a |
 | 2026-10-31 | #12 | frontend-developer | Port contact form to Next.js /contact (#B) (unfinished) | ticket-12-port-contact-form-to-next-js-contact-b |
 | 2026-10-31 | #13 | frontend-developer | Contact port (#B) - close out, keep legacy files | ticket-12-port-contact-form-to-next-js-contact-b |
+| 2026-10-31 | #8 | cto | Approved: plan #1 (Next.js landing page). (shared with the team) | ticket-8-approved-plan-1-next-js-landing-page |
