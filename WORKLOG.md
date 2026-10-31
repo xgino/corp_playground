@@ -18,3 +18,4 @@ Employees get the last lines of this file with their ticket, never the whole fil
 | 2026-10-31 | #13 | frontend-developer | Contact port (#B) - close out, keep legacy files | ticket-12-port-contact-form-to-next-js-contact-b |
 | 2026-10-31 | #8 | cto | Approved: plan #1 (Next.js landing page). (shared with the team) | ticket-8-approved-plan-1-next-js-landing-page |
 | 2026-10-31 | #15 | cto | on corp_playground add a GET /api/health/ endpoint that returns {“status”: “ok”} (shared with the team) | ticket-15-on-corp-playground-add-a-get-api-health |
+| 2026-10-31 | #16 | engineer | GET /api/health/ endpoint + footer link | ticket-16-get-api-health-endpoint-footer-link |
