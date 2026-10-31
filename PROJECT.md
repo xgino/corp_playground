@@ -24,6 +24,7 @@ web/                 Next.js 15 (App Router, TypeScript, Bootstrap), static expo
 docs/plans/          approved plans (landing-page.md)
 docs/contracts/      API contracts
   contact.md         POST /api/contact/ (v1)
+  health.md          GET /api/health/ (v1): {"status": "ok"}
 ```
 
 Contract: [docs/contracts/contact.md](docs/contracts/contact.md)
