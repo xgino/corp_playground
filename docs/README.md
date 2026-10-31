@@ -11,9 +11,3 @@ _Not written yet._
 ## Structure
 
 _Not written yet._
-
-## Work log
-
-| Date | Ticket | Who | What | Branch |
-|---|---|---|---|---|
-| 2026-10-31 | #7 | cto | Can you create me a landing page that uses Next.js and make it more appealing an | ticket-7-can-you-create-me-a-landing-page-that-us |
