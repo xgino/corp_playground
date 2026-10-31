@@ -32,3 +32,4 @@ They are not part of the Next.js build and are ported later (ticket #B).
 | Date | Ticket | Who | What | Branch |
 |---|---|---|---|---|
 | 2026-10-31 | #9 | frontend-developer | Next.js landing page in web/ (#A) (unfinished) | ticket-9-next-js-landing-page-in-web-a |
+| 2026-10-31 | #10 | frontend-developer | Next.js landing page in web/ (#A) - continue (unfinished) | ticket-9-next-js-landing-page-in-web-a |
