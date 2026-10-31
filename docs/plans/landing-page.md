@@ -48,3 +48,8 @@ Order: #A, then #B, then QA.
 4. The contact page needs the API (CORS origin) to allow the Next.js dev origin; that is a settings change for the backend, only needed for #B.
 
 ## Work log
+
+| Date | Ticket | Who | What | Branch |
+|---|---|---|---|---|
+| 2026-10-31 | #9 | frontend-developer | Next.js landing page in web/ (#A) (unfinished) | ticket-9-next-js-landing-page-in-web-a |
+| 2026-10-31 | #10 | frontend-developer | Next.js landing page in web/ (#A) - continue (unfinished) | ticket-9-next-js-landing-page-in-web-a |
