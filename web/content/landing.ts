@@ -40,6 +40,7 @@ export const landing = {
   process: {
     title: 'Zo helpen we je',
     intro: 'Vier stappen, in deze volgorde.',
+    stepLabel: 'Stap',
     steps: [
       { title: 'Kennismaken', text: 'We luisteren naar je situatie en je doel.' },
       { title: 'Plan maken', text: 'Samen kiezen we een aanpak die past.' },

@@ -92,6 +92,13 @@ a:focus-visible,
   flex-shrink: 0;
 }
 
+.measure-headline {
+  max-width: 18ch;
+}
+.measure-text {
+  max-width: 40rem;
+}
+
 .card-outcome {
   border: 1px solid var(--line);
   border-radius: 1rem;
