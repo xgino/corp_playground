@@ -49,3 +49,4 @@ CORS: api/.env `CORS_ALLOWED_ORIGINS` must include the Next.js origin (e.g. http
 | 2026-10-31 | #10 | frontend-developer | Next.js landing page in web/ (#A) - continue (unfinished) | ticket-9-next-js-landing-page-in-web-a |
 | 2026-10-31 | #12 | frontend-developer | Port contact form to Next.js /contact (#B) (unfinished) | ticket-12-port-contact-form-to-next-js-contact-b |
 | 2026-10-31 | #13 | frontend-developer | Contact port (#B) - close out, keep legacy files | ticket-12-port-contact-form-to-next-js-contact-b |
+| 2026-10-31 | #8 | cto | Approved: plan #1 (Next.js landing page). (shared with the team) | ticket-8-approved-plan-1-next-js-landing-page |
