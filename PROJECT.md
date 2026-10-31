@@ -45,3 +45,7 @@ CORS: api/.env `CORS_ALLOWED_ORIGINS` must include the Next.js origin (e.g. http
 | 2026-10-30 | #6 | backend-developer | Align contact endpoint with contract v1 | ticket-6-align-contact-endpoint-with-contract-v1 |
 | 2026-10-30 | #3 | cto | Simple contact page (API + HTML form) | ticket-3-simple-contact-page-api-html-form |
 | 2026-10-31 | #7 | cto | Can you create me a landing page that uses Next.js and make it more appealing an | ticket-7-can-you-create-me-a-landing-page-that-us |
+| 2026-10-31 | #9 | frontend-developer | Next.js landing page in web/ (#A) (unfinished) | ticket-9-next-js-landing-page-in-web-a |
+| 2026-10-31 | #10 | frontend-developer | Next.js landing page in web/ (#A) - continue (unfinished) | ticket-9-next-js-landing-page-in-web-a |
+| 2026-10-31 | #12 | frontend-developer | Port contact form to Next.js /contact (#B) (unfinished) | ticket-12-port-contact-form-to-next-js-contact-b |
+| 2026-10-31 | #13 | frontend-developer | Contact port (#B) - close out, keep legacy files | ticket-12-port-contact-form-to-next-js-contact-b |
