@@ -41,3 +41,5 @@ Test command: `cd api && python manage.py test`
 | 2026-10-31 | #7 | cto | Can you create me a landing page that uses Next.js and make it more appealing an | ticket-7-can-you-create-me-a-landing-page-that-us |
 | 2026-10-31 | #9 | frontend-developer | Next.js landing page in web/ (#A) (unfinished) | ticket-9-next-js-landing-page-in-web-a |
 | 2026-10-31 | #10 | frontend-developer | Next.js landing page in web/ (#A) - continue (unfinished) | ticket-9-next-js-landing-page-in-web-a |
+| 2026-10-31 | #12 | frontend-developer | Port contact form to Next.js /contact (#B) (unfinished) | ticket-12-port-contact-form-to-next-js-contact-b |
+| 2026-10-31 | #13 | frontend-developer | Contact port (#B) - close out, keep legacy files | ticket-12-port-contact-form-to-next-js-contact-b |

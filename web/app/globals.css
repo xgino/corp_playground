@@ -99,6 +99,16 @@ a:focus-visible,
   max-width: 40rem;
 }
 
+.contact-page {
+  max-width: 640px;
+}
+
+/* Form controls get the same visible focus as links and buttons */
+.form-control:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .card-outcome {
   border: 1px solid var(--line);
   border-radius: 1rem;
